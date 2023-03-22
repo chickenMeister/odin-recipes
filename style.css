@@ -1,0 +1,103 @@
+/*ALL PAGES*/
+body{
+    background-color: #febe7e;
+    color:#a75265;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+/*MAIN PAGE*/
+
+#main-page-title{
+    text-align: center;
+    font-size: 80px;
+    
+}
+
+#food-menu{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 36px;
+}
+
+/*RECIPES PAGES*/
+
+.menu-bar{
+    font-size: 35px;
+    background-color: #57385c;
+    
+}
+
+.menu-bar a:link{
+    text-decoration: none;
+    color:#febe7e;
+} 
+
+.menu-bar a:visited{
+    color:#ec7263;
+}
+
+.menu-bar a:hover{
+    color:#a75265;
+}
+
+.menu-bar a:active{
+    color:#ec7263;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+h4{
+    font-size:35px;  
+}
+
+h4.description{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p.description{
+    text-align: center;
+}
+
+h4.ingredients{
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.ingredients{
+    text-align: center;
+}
+
+.uningredients{
+    display: inline-block;
+    text-align: left;
+}
+
+h4.steps{
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.steps{
+    text-align: center;
+}
+
+.olsteps{
+    display: inline-block;
+    text-align: left
+}
+
+.img-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    border-style: dotted;
+}
